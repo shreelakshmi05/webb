@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+.container-fluid{
+    justify-content: space-around;
+    font-size: x-large;
+    margin-top: 30px;
+    margin-bottom: 0;
+
+}
+body{
+    font-family: "outfit";
+    background: linear-gradient(#191919,#191919);
+
+}
+
+.contactcont{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: 10%;
+
+}
+.contactleft{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+
+
+}
+.contactlefttitle h2{
+    font-weight: 600;
+    color: rgb(224, 204, 208);
+    font-size: 40px;
+    margin-bottom: 5px;
+    
+}
+.contactlefttitle hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #a363aa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+
+}
+.contactinput{
+    width: 400;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666 ;
+    border-radius: 50px;
+}
+.contactleft textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+
+
+
+}
+.contactinput:focus{
+    border: 2px solid #ff994f;
+
+}
+.contactleft button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(#666,#191919);
+    cursor: pointer;
+}
+.contactleft button img{
+    height: 15px;
+
+}
+@media (max-width:800px) {
+.contactinput{
+    width: 80vw;
+
+}
+.contact-right{
+    display: none;
+}    
+}

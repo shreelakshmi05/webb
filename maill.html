@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name ="viewport" content="width=device-width, nitial-scale=1.0">
+        <title>Mail form</title>
+        <link rel="stylesheet" href="mail.css">
+         <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+    </head>
+    <body>
+        <section class="colored-section" id="title">
+
+            <div class="container-fluid">
+              <!-- Nav Bar -->
+              <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="" style="font-size: x-large;">RYTHMS</a>
+        
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggle-items" aria-controls="navbar-toggle-items" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbar-toggle-items">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./buzzjazz.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./maill.html">FEEDBACK</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./form.html">ADMISSION</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html">PLAY ALONG</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
+        <div class="contactcont">
+            <form action="https://api.web3forms.com/submit" method="POST"class="contactleft">
+                <div class="contactlefttitle">
+                    <h2>GET IN TOUCH </h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="33b1bd61-dfec-44c7-9a06-b72a231b426e">
+                <input type="text" name="name" placeholder="Your name" class="contactinput" required>
+                <input type="text" name="email" placeholder="Your email" class="contactinput" required>
+                <textarea  type ="text" name="Message" placeholder="Your message" class="contactinput" required> </textarea>
+                <button type="submit"> Submit <img src="./assets/arrow_icon.png" alt=""></button>
+
+            </form>
+            <div class="contactright" >
+                <img class="title-image" src="./music logo.png"alt="BENCHMARK"style="width: 100vh;">
+            </div>
+        </div>
+    </section>
+        
+    </body>
+</html>
